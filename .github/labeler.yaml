@@ -1,7 +1,6 @@
 docs:
   - changed-files:
       - any-glob-to-all-files:
-          - "*.md"
           - "**/*.md"
           - "docs/**/*"
 
