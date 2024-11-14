@@ -7,7 +7,7 @@ docs:
 test:
   - changed-files:
       - any-glob-to-all-files:
-          - "**/test/**/*"
+          - "**/test/**/*.dart"
 
 chore:
   - changed-files:
