@@ -3,6 +3,7 @@ docs:
       - any-glob-to-all-files:
           - "**/*.md"
           - "docs/**/*"
+      - all-globs-to-all-files: "!.github/**/*"
 
 test:
   - changed-files:
