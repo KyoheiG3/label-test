@@ -12,13 +12,7 @@ test:
 chore:
   - changed-files:
       - any-glob-to-all-files:
-          - "*"
           - ".*"
-          - "*.*"
-          - "**/*.sh"
-          - ".husky/**/*"
-          - ".idea/**/*"
-          - ".vscode/**/*"
 
 ci:
   - changed-files:
