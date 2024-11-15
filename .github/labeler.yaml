@@ -3,6 +3,8 @@ docs:
       - any-glob-to-all-files:
           - "**/*.md"
           - "docs/**/*"
+      - all-globs-to-all-files:
+          - "!.github/**/*"
 
 test:
   - changed-files:
@@ -12,13 +14,7 @@ test:
 chore:
   - changed-files:
       - any-glob-to-all-files:
-          - "*"
           - ".*"
-          - "*.*"
-          - "**/*.sh"
-          - ".husky/**/*"
-          - ".idea/**/*"
-          - ".vscode/**/*"
 
 ci:
   - changed-files:

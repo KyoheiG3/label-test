@@ -1,3 +1,1 @@
 # label-test
-
-test label
