@@ -21,3 +21,9 @@ ci:
   - changed-files:
       - any-glob-to-any-file:
           - ".github/**/*"
+
+source:
+  - all:
+    - changed-files:
+      - any-glob-to-any-file: 'src/**/*'
+      - all-globs-to-all-files: '!src/docs/*'
