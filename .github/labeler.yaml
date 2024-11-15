@@ -13,7 +13,7 @@ chore:
   - changed-files:
       - any-glob-to-all-files:
           - ".*"
-          - "*.yaml"
+          - "./**.yaml"
           - "*.gemfile"
 
 ci:
