@@ -15,6 +15,7 @@ chore:
           - ".*"
           - "**.yaml"
           - "*.gemfile"
+          - "**.json*"
 
 ci:
   - changed-files:
