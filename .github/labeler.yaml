@@ -11,9 +11,9 @@ test:
 
 chore:
   - changed-files:
-      - any-glob-to-all-files:
+      - any-glob-to-any-file:
           - ".*"
-          - "./**.yaml"
+          - "**.yaml"
           - "*.gemfile"
 
 ci:
