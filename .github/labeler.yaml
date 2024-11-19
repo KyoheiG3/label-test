@@ -21,3 +21,13 @@ ci:
   - changed-files:
       - any-glob-to-any-file:
           - ".github/**/*"
+
+check:
+- changed-files:
+  - any-glob-to-any-file:
+    - "packages/**/*.dart"
+  - all-globs-to-all-files:
+    - "!packages/entity/**/*"
+    - "!packages/**/test/**/*"
+    - "!packages/**/*.g.dart"
+    - "!packages/**/*.md"
