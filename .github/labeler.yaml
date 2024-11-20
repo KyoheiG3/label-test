@@ -20,6 +20,8 @@ chore:
 ci:
   - changed-files:
     - all-globs-to-any-file:
+      - ".circleci/**/*"
+    - all-globs-to-any-file:
       - ".github/**/*"
       - "!.github/**/*.md"
 
