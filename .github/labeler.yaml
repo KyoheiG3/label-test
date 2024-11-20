@@ -18,19 +18,15 @@ chore:
           - "**.json*"
 
 ci:
-- all:
   - changed-files:
-    - any-glob-to-any-file:
+    - all-globs-to-any-file:
       - ".github/**/*"
-    - all-globs-to-all-files:
       - "!.github/**/*.md"
 
 check:
-- all:
   - changed-files:
-    - any-glob-to-any-file:
-      - "packages/**/*.dart"
     - all-globs-to-any-file:
+      - "packages/**/*.dart"
       - "!packages/entity/**/*"
       - "!packages/**/test/**/*"
       - "!packages/**/*.g.dart"
