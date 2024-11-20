@@ -20,18 +20,17 @@ chore:
 ci:
 - all:
   - changed-files:
-      - any-glob-to-any-file:
-        - ".github/**/*"
-      - all-globs-to-all-files:
-        - "!.github/**/*.md"
+    - any-glob-to-any-file:
+      - ".github/**/*"
+    - all-globs-to-all-files:
+      - "!.github/**/*.md"
 
 check:
 - all:
   - changed-files:
     - any-glob-to-any-file:
       - "packages/**/*.dart"
-    - all-globs-to-all-files:
+    - all-globs-to-any-file:
       - "!packages/entity/**/*"
       - "!packages/**/test/**/*"
       - "!packages/**/*.g.dart"
-      - "!packages/**/*.md"
